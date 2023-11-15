@@ -35,3 +35,5 @@ pipeline:
                     repo: https://hub.docker.com/korkmazc
                     tags:
                       - dockerhub
+  delegateSelectors:
+    - docker-delegate
