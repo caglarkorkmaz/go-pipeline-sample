@@ -35,3 +35,7 @@ pipeline:
                     repo: korkmazc/go-sample
                     tags:
                       - docker
+        delegateSelectors:
+          - kubernetes-delegate
+        when:
+          pipelineStatus: All
