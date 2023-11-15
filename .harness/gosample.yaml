@@ -36,4 +36,4 @@ pipeline:
                     tags:
                       - dockerhub
   delegateSelectors:
-    - docker-delegate
+    - kubernetes-delegate
